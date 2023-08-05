@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import "variables";
+
+@import "header";
+@import "index";
+@import "main";
+@import "heading";
+@import "footer";
+@import "responsive";
+@import "about";
+@import "contact";
+@import "team";
+@import "sign-in";
+@import "sign-up";
+@import "recover";
+@import "coming";
+@import "error";
+@import "service";
+@import "price";
+@import "faq";
+@import "blog";
+@import "get-started";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900 !important;
+}
+

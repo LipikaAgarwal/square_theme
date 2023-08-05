@@ -1,0 +1,14 @@
+
+.sign-in-section{
+    background-image: url(../image/photo-55.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 657px;
+    & a{
+        color: $btn-bg;
+    }
+    & .form-control:focus{
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+}

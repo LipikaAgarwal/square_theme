@@ -1,0 +1,184 @@
+.pricing-section {
+    position: relative;
+    padding-top: 12.5rem !important;
+    margin-bottom: 4.75rem !important;
+
+    &:before {
+        background-color: #f9f9f9;
+        content: "";
+        height: 30%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    & span {
+        color: $btn-bg;
+    }
+
+    & .btn-1 {
+        background-color: $black;
+    }
+
+    & .btn-2 {
+        border: 2px solid $black;
+
+        & .badge {
+            background-color: $btn-bg;
+            margin-top: -2rem;
+        }
+
+        &:hover {
+            color: $white !important;
+            background-color: $black !important;
+        }
+    }
+
+    & .features {
+        padding-top: 9.5rem !important;
+    }
+
+    & .card {
+        transition: box-shadow .3s ease, transform .3s ease;
+
+        &:hover {
+            transform: translate3d(0, -6px, 0) !important;
+        }
+    }
+
+    & .basic {
+        & .card-body {
+            & p {
+                color: $btn-bg
+            }
+
+            & .btn {
+                color: $btn-bg;
+                background-color: $theme4;
+
+                &:hover {
+                    color: $white;
+                    background-color: $btn-bg !important ;
+                }
+            }
+        }
+    }
+
+    & .basics {
+        & .card-body p {
+            color: $btn-bg;
+        }
+        & .card-body{
+            & .btn{
+                color: $white;
+                background-color: $btn-bg !important;
+                &:hover{
+                    background-color: $btn-bg-hover !important;
+                }
+            }
+        }
+    }
+}
+
+.Trusted-section {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+    margin-bottom: 3.75rem !important;
+
+    & .working {
+        & p {
+            padding: 0px 97px;
+            margin: 0 90px;
+        }
+
+        & .social-img:nth-child(1) svg {
+            .st40 {
+                fill: #4C4C4C;
+            }
+
+            .st41 {
+                fill: #898989;
+            }
+
+            .st42 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #FFFFFF;
+            }
+
+            .st43 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #EC1C2E;
+            }
+        }
+
+        & .social-img:nth-child(3) svg {
+            .st0 {
+                fill: #E53238;
+            }
+
+            .st1 {
+                fill: #0064D2;
+            }
+
+            .st2 {
+                fill: #F5AF02;
+            }
+
+            .st3 {
+                fill: #86B817;
+            }
+        }
+
+        & .social-img:nth-child(4) svg {
+            .st30 {
+                fill: #003087;
+            }
+
+            .st31 {
+                fill: #009CDE;
+            }
+
+            .st32 {
+                fill: #012169;
+            }
+        }
+
+        & .social-img:nth-child(5) svg {
+            .st10 {
+                fill: #80BA27;
+            }
+
+            .st11 {
+                fill: #BC8647;
+            }
+
+            .st12 {
+                fill: #1E64A8;
+            }
+        }
+
+    }
+}
+
+.trial-section {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+
+    & .form-control {
+        &:focus {
+            box-shadow: none;
+            border-color: #ced4da;
+        }
+    }
+
+    & .btn {
+        background-color: $btn-bg;
+
+        &:hover {
+            background-color: $btn-bg-hover;
+        }
+    }
+}

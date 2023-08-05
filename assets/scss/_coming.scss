@@ -1,0 +1,23 @@
+.coming-soon-section{
+    background-image: url(../image/photo-57.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 657px;
+    & h1{
+        font-size: 5.125rem;
+        opacity: .7!important;
+    }
+    & .btn{
+        background-color: $btn-bg;
+        &:hover{
+            background-color: $btn-bg-hover;
+        }
+    }
+    & .contns{
+        opacity: .50;
+    }
+    & .form-control:focus{
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+}

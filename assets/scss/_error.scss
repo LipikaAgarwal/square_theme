@@ -1,0 +1,9 @@
+.error-section {
+    & .square{
+        position: absolute;
+        left: 50%;
+        width: 400px;
+        top: 150px;
+        transform: translate(-225px, 10px);
+    }
+}

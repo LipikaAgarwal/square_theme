@@ -1,0 +1,45 @@
+
+
+.team-section {
+    background-image: linear-gradient(rgb(0 0 0 / 47%), rgb(32 24 24 / 57%)), url(../image/photo-08.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 550px;
+
+    & a i {
+        position: absolute;
+        font-size: 22px;
+        color: $gray-700;
+        background: $white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 1.85;
+        padding: 0px 13px;
+    }
+}
+.content-section{
+    padding-top: 6.25rem !important;
+}
+.leadership-team-section{
+    padding-bottom: 4.75rem!important;
+    padding-top: 4.75rem!important;
+}
+.rating-section{
+    padding-bottom: 4.75rem;
+    margin-bottom: 4.75rem;
+    & h2{
+        font-size: 4.6875rem;
+    }
+}
+.join-section{
+    padding-bottom: 4.75rem!important;
+    padding-top: 4.75rem!important;
+    & .btn {
+        background-color: $btn-bg;
+
+        &:hover {
+            background-color: $btn-bg-hover;
+        }
+    }
+}

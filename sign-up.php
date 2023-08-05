@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Event</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=yes" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/bijarniadream.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.default.min.css">
+    <link rel="stylesheet" href="assets/css/owl.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid position-absolute top-0 w-100" id="myHeader-4">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <nav class="navbar navbar-expand-sm  navbar-light">
+                    <div class="container-fluid products">
+                        <a class="navbar-brand" href="#">
+                            <svg width="160" height="50" class="logo" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 701 217">
+                                <path
+                                    d="M122.73 185.24l12.57-15.05c8.77 7.2 18.58 11.4 29.58 11.4 8.37 0 12.7-3.4 12.7-8.25 0-5.36-4.2-6.54-17.28-9.68-19.23-4.32-33.5-9.56-33.5-27.62 0-17.27 13.87-28.8 34.42-28.8 15 0 26.83 4.32 36.38 12.3l-11.38 16c-8.2-6.3-17.28-9.54-25.65-9.54-7.2 0-11.26 3.4-11.26 7.85 0 5.5 4.32 7.33 17.67 10.2 20.15 4.32 33.1 10.07 33.1 27 0 18.06-13.74 29.3-36 29.3-15.96-.08-30.48-5.3-41.35-15.13zm190.7-6.02l8 6.94-10.87 12.56-8.77-7.6a49.08 49.08 0 0 1-28.53 9.16c-26.18 0-48.25-21.3-48.25-46.6s22.12-46.46 48.3-46.46 48.43 21.2 48.43 46.46a44 44 0 0 1-8.3 25.52zm-28.14-2.48l-9.28-8.12 10.86-12.56 9.56 8.24a26 26 0 0 0 2.22-10.6c0-14.13-11.64-26.17-25.4-26.17s-25.4 12-25.4 26.17 11.66 26.3 25.4 26.3a23.74 23.74 0 0 0 12.04-3.26zm51.57-17.4V108.8h22.38v49.47c0 12.7 8.12 21.73 19.37 21.73s19.5-9 19.5-21.73V108.8h22.25v50.52c0 24.08-17.14 41-41.75 41s-41.75-16.92-41.75-41zm158.23 26.3h-35.6l-5.24 13.1H429.1l35.6-89.9h25.13l35.6 89.9H500.3zm-6.93-17.53l-10.87-27.62-10.86 27.62zm102.35 30.62l-19.77-28.14h-11v28.14h-22.37v-89.9h41.75c19.76 0 34.16 12.7 34.16 30.9 0 13.1-7.46 23.42-19.1 28.14l21.73 30.88zm-30.76-48.55H577c7.72 0 13.2-4.2 13.2-10.47s-5.5-10.47-13.2-10.47h-17.26zm92.66-21.34v14h44v20h-44v15.87h48.43v20H630v-89.9h70.8v20z"
+                                    fill="#232323"></path>
+                                <path d="M3.33 3.3h210.03v210.03H3.33z" fill="none" stroke="#232323"
+                                    stroke-miterlimit="10" stroke-width="6"></path>
+                            </svg>
+                        </a>
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <div class="container-fluid sign-up-section pt-2">
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 ps-5 py-5 welcome">
+                    <h1>Welcome to SQUARE</h1>
+                    <p>Maecenas dapibus scelerisque mauris, eget congue ex euismod euismod. Fusce a erat consectetur,
+                        rutrum magna facilisis, pellentesque nunc. Nullam molestie odio ut mauris interdum.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                            <input class="form-control text-muted py-3" type="text" placeholder="First name"
+                                name="First name">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                            <input class="form-control py-3" type="text" placeholder="Last name" name="Last name">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                            <input class="form-control py-3" type="text" placeholder="Email address"
+                                name="Email address">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
+                            <input class="form-control py-3" type="text" placeholder="Password" name="Password">
+                        </div>
+                    </div>
+                    <div class="custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="tc">
+                        <label class="custom-control-label">Yes, I agree to the
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <div class="mt-4 mb-3">
+                        <a href="" class="btn bg-dark text-white fw-bold px-5 py-3 text-uppercase">sign up <i
+                                class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <p class="text-muted">or login with
+                            <a href="">
+                                <svg width="22" height="22" class="ms-2" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" fill="gray">
+                                    <title>social-media-google</title>
+                                    <path
+                                        d="M6.1,7.4a.5.5,0,0,0,.68-.06A7,7,0,0,1,17.1,7.21a.5.5,0,0,0,.71,0l2.92-2.74a.5.5,0,0,0,0-.71,12,12,0,0,0-17.83.4A.5.5,0,0,0,3,4.9Z">
+                                    </path>
+                                    <path
+                                        d="M5.24,14.79a.5.5,0,0,0,.14-.53,6.89,6.89,0,0,1,0-4.46.5.5,0,0,0-.16-.55L1.95,6.64a.5.5,0,0,0-.76.17,11.93,11.93,0,0,0,.15,10.65.5.5,0,0,0,.78.14Z">
+                                    </path>
+                                    <path
+                                        d="M24,10.5a.5.5,0,0,0-.5-.5h-10a.5.5,0,0,0-.5.5v4a.5.5,0,0,0,.5.5h4.84a6.79,6.79,0,0,1-1.14,1.67.5.5,0,0,0,0,.67l2.67,3a.5.5,0,0,0,.73,0A12,12,0,0,0,24,12.6Z">
+                                    </path>
+                                    <path
+                                        d="M15.52,18.46a.5.5,0,0,0-.58-.12,6.93,6.93,0,0,1-8.1-1.63.5.5,0,0,0-.7,0l-3,2.68a.5.5,0,0,0,0,.71,12,12,0,0,0,15,2.25.5.5,0,0,0,.12-.76Z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg width="22" height="22" class="ms-2" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" fill="gray">
+                                    <title>social-media-facebook-1</title>
+                                    <path
+                                        d="M19.55,14.56a.5.5,0,0,1-.5.44H17a.5.5,0,0,0-.5.5v8a.5.5,0,0,0,.5.5h6a1,1,0,0,0,1-1V1a1,1,0,0,0-1-1H1A1,1,0,0,0,0,1V23a1,1,0,0,0,1,1H12a.5.5,0,0,0,.5-.5v-8A.5.5,0,0,0,12,15H10a.5.5,0,0,1-.5-.5v-3A.5.5,0,0,1,10,11h2a.5.5,0,0,0,.5-.5V9.19A5.69,5.69,0,0,1,18.19,3.5H19.5A.5.5,0,0,1,20,4V7a.5.5,0,0,1-.5.5H18.19A1.69,1.69,0,0,0,16.5,9.19V10.5a.5.5,0,0,0,.5.5h2.43a.5.5,0,0,1,.5.56Z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg width="22" height="22" class="ms-2" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" fill="gray">
+                                    <title>social-media-twitter</title>
+                                    <path
+                                        d="M23.32,6.44a.5.5,0,0,0-.2-.87l-.79-.2A.5.5,0,0,1,22,4.67l.44-.89a.5.5,0,0,0-.58-.7l-2,.56a.5.5,0,0,1-.44-.08,5,5,0,0,0-3-1,5,5,0,0,0-5,5v.36a.25.25,0,0,1-.22.25c-2.81.33-5.5-1.1-8.4-4.44a.51.51,0,0,0-.51-.15A.5.5,0,0,0,2,4a7.58,7.58,0,0,0,.46,4.92.25.25,0,0,1-.26.36L1.08,9.06a.5.5,0,0,0-.57.59,5.15,5.15,0,0,0,2.37,3.78.25.25,0,0,1,0,.45l-.53.21a.5.5,0,0,0-.26.69,4.36,4.36,0,0,0,3.2,2.48.25.25,0,0,1,0,.47A10.94,10.94,0,0,1,1,18.56a.5.5,0,0,0-.2,1,20.06,20.06,0,0,0,8.14,1.93,12.58,12.58,0,0,0,7-2A12.5,12.5,0,0,0,21.5,9.06V8.19a.5.5,0,0,1,.18-.38Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 square py-4">
+                    <div class="owl-carousel owl-carousel-4 owl-theme">
+                        <div class="item position-relative">
+                            <div>
+                                <img src="assets/image/photo-52.jpg" width="100%" height="595px" alt="">
+                            </div>
+                            <div class="content position-absolute">
+                                <p class="text-white">
+                                    <i>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                                        turpis egestas.</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <div>
+                                <img src="assets/image/photo-53.jpg" width="100%" height="595px" alt="">
+                            </div>
+                            <div class="content position-absolute">
+                                <p class="text-white">
+                                    <i>Cras tempor malesuada velit, id pellentesque mi convallis ut. Vivamus volutpat id
+                                        nunc dignissim vehicula.</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item position-relative">
+                            <div>
+                                <img src="assets/image/photo-54.jpg" width="100%" height="595px" alt="">
+                            </div>
+                            <div class="content position-absolute">
+                                <p class="text-white">
+                                    <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum,
+                                        tortor at ultricies ultricies.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+
+    <script src="assets/libs"></script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/script.js"></script>

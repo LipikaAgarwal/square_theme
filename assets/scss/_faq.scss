@@ -1,0 +1,109 @@
+.faq-section {
+    background-image: linear-gradient(rgb(0 0 0 / 47%), rgb(32 24 24 / 57%)), url(../image/photo-21.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 550px;
+
+    & .btn {
+        background-color: $btn-bg;
+
+        &:hover {
+            background-color: $btn-bg-hover
+        }
+    }
+
+    & .form-control {
+        &:focus {
+            box-shadow: none;
+            border-color: #ced4da;
+        }
+    }
+}
+
+.category-section {
+    margin-bottom: 4.75rem !important;
+    margin-top: -4.5rem;
+
+    & .card {
+        transition: box-shadow .3s ease, transform .3s ease;
+
+        &:hover {
+            transform: translate3d(0, -6px, 0) !important;
+        }
+    }
+
+    & .left {
+        & .card {
+            & svg {
+                fill: $btn-bg;
+            }
+
+            & h5 {
+                color: $btn-bg;
+            }
+        }
+    }
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: $black !important;
+    background-color: $white !important;
+    border-color: $gray-200;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    color: $black !important;
+}
+
+.still-section {
+    padding-bottom: 9.5rem;
+    padding-top: 9.5rem;
+
+    & .left {
+        z-index: 1;
+        margin-right: -6.25rem;
+
+        & .card {
+            transition: box-shadow .3s ease, transform .3s ease;
+
+            &:hover {
+                transform: translate3d(0, -6px, 0);
+            }
+
+            & .card-body {
+                & svg {
+                    fill: $btn-bg;
+                }
+
+                & .number {
+                    color: $btn-bg;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    & .lift .card {
+        // margin-left: -6.25rem!important;
+        margin-top: 3.75rem !important;
+        transition: box-shadow .3s ease, transform .3s ease;
+
+        &:hover {
+            transform: translate3d(0, -6px, 0) !important;
+        }
+
+        & .card-body {
+            & a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

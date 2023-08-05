@@ -1,0 +1,21 @@
+.sign-up-section{
+    padding-left: 5.45rem;
+    & .welcome{
+        padding-right: 10.75rem;
+        & .form-control:focus{
+            box-shadow: none;
+            border-color: #ced4da;
+        }
+        & .custom-checkbox{
+            & .custom-control-label a{
+                color: $btn-bg !important;
+            }
+        }
+    } 
+    & .square{
+        & .item .content{
+            bottom: 20px;
+            left: 10px;
+        }
+    }
+}

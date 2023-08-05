@@ -1,0 +1,1071 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  // @include navbar-mixin-min-sm();
+  // @include heading-fs-12-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // @include navbar-mixin-min-md();
+  // @include heading-fs-12-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // @include navbar-mixin-min-lg();
+  // @include heading-fs-12-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // @include navbar-mixin-min-xl();
+  // @include heading-fs-12-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // @include navbar-mixin-min-xxl();
+  // @include heading-fs-12-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  // @include navbar-mixin-max-xl();
+  // @include heading-fs-12-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1300px)
+@media (max-width: 1299.98px) {
+  // @include navbar-mixin-max-1300();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  // @include navbar-mixin-max-lg();
+  // @include heading-fs-12-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  // @include navbar-mixin-max-md();
+  // @include heading-fs-12-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  // @include navbar-mixin-max-sm();
+  // @include heading-fs-12-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  // @include navbar-mixin-max-xs();
+  // @include heading-fs-12-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+
+
+
+
+/*Wide screen*/
+@media only screen and (min-width: 1600px) {
+  .header-action-right .search-location {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .col-lg-1-5 {
+    width: 20%;
+  }
+
+  .col-lg-2-5 {
+    width: 40%;
+  }
+
+  .col-lg-3-5 {
+    width: 60%;
+  }
+
+  .col-lg-4-5 {
+    width: 80%;
+  }
+
+  .col-lg-5-5 {
+    width: 100%;
+  }
+
+  // .header-action-right {
+  //   display: -webkit-box;
+  //   display: -ms-flexbox;
+  //   display: flex;
+  //   -webkit-box-pack: end;
+  //   -ms-flex-pack: end;
+  //   justify-content: flex-end;
+  //   -ms-flex-negative: 0;
+  //   flex-shrink: 0;
+  //   -webkit-box-align: center;
+  //   -ms-flex-align: center;
+  //   align-items: center;
+  // }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #myHeader{
+    & .navbar-nav{
+      & .nav-item {
+        & .nav-link:before {
+          left: 0 !important;
+          right: 0 !important;
+        }
+        & .sub-menu {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          transform: translate3d(-50%, 0px, 0);
+          & .company{
+            margin-right: 0rem !important;
+          }
+          & .account{
+            margin-left: 0rem !important;
+            margin-right: 1.5rem !important;
+          }
+          & .organization{
+            margin-right: 0 !important;
+          }
+      }
+      }
+    }
+  }
+  #myHeader-3{
+    & .navbar-nav{
+      & .nav-item {
+        & .nav-link:before {
+          left: 0 !important;
+          right: 0 !important;
+        }
+        & .sub-menu {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          transform: translate3d(-50%, 0px, 0);
+          & .company{
+            margin-right: 0rem !important;
+          }
+          & .account{
+            margin-left: 0rem !important;
+            margin-right: 1.5rem !important;
+            
+          }
+          & .organization{
+            margin-right: 0 !important;
+          }
+      }
+      }
+    }
+  }
+  .navbar-collapse {
+    background-color: $white !important;
+
+    & .nav-link {
+      color: $black !important;
+    }
+
+    & .btn {
+      margin: 10px 10px !important;
+    }
+  }
+
+  .design-section .content-section .btn {
+    padding: 10px 15px !important;
+  }
+
+  .price-section .card {
+    margin-bottom: 15px;
+  }
+
+  .owl-carousel .owl-nav .owl-prev {
+    left: 90px;
+  }
+
+  .navbar-toggler {
+    background-color: $white !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .speak-section .matty .img-1 {
+    width: 28% !important;
+  }
+
+  .top-footer-section {
+    & svg {
+      margin-bottom: 15px !important;
+    }
+
+    & h6 {
+      margin-bottom: 0px !important;
+    }
+    & .service{
+      padding-bottom: 15px !important;
+    }
+  }
+
+  .bottom-footer-section {
+    & .policy {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 10px;
+    }
+
+    & .cookies {
+      justify-content: center !important;
+      padding-top: 10px;
+    }
+  }
+
+  .about-section {
+    height: 500px !important;
+    padding-top: 130px !important;
+
+    & .abouts .imgs {
+      width: 317px !important;
+      left: 9px !important;
+      height: 500px !important;
+    }
+  }
+
+  .brand-section {
+    & h6 {
+      font-size: 18px;
+    }
+  }
+
+  .behind-section {
+    padding-top: 1.75rem !important;
+    & .sed {
+      padding-top: 1rem;
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+    }
+  }
+
+  .quality-section {
+    height: 890px !important;
+
+    & h2 {
+      font-size: 29px !important;
+    }
+
+    & .home {
+      display: none;
+    }
+
+    & .content {
+      padding: 0 0 !important;
+    }
+  }
+
+  .work-section {
+    & .working p {
+      padding: 0 0 !important;
+      margin: 0 0 !important;
+    }
+
+    & .social-img {
+      padding: 20px 0px;
+    }
+  }
+
+  .rating-section {
+    padding-bottom: 6.75rem !important;
+    padding-top: 0 !important;
+    margin-bottom: 0rem !important;
+
+    & h2 {
+      font-size: 2.5rem !important;
+    }
+  }
+
+  .join-section {
+    & .cntnt {
+      text-align: center !important;
+
+      & .join {
+        display: block !important;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .data-section {
+    & .contents .datas {
+      margin: 20px 0;
+    }
+  }
+
+  .client-graph-section {
+    padding-top: 0rem !important;
+    padding-bottom: 9.75rem !important;
+
+    & .IMGS {
+      padding-bottom: 20px;
+
+      & .img-2 {
+        width: 215px !important;
+        transform: translate(-108px, 1px) !important;
+      }
+    }
+  }
+
+  .mobile-section {
+    & .hybrid {
+      margin-top: -12.75rem !important;
+    }
+
+    & .nav .nav-item {
+      width: 100%;
+    }
+
+    & .mob-img {
+      margin-top: 4.5rem !important;
+    }
+
+    & .btn-1 {
+      padding-right: 1.5rem !important;
+      padding-left: 1.5rem !important;
+    }
+
+    & .btn-2 {
+      padding-right: 1.5rem !important;
+      padding-left: 1.5rem !important;
+    }
+  }
+
+  .plan-section {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+
+    & .card {
+      margin-bottom: 15px !important;
+    }
+  }
+
+  .contact-section {
+    padding-top: 6.5rem !important;
+
+    & .form .details .get {
+      padding: 1.75rem !important;
+    }
+
+    & .details {
+      padding: 0 !important;
+    }
+
+    & .map {
+      height: 300px;
+      transform: translate(-50%, -50%) translate(150px, 269px) !important;
+    }
+
+    & .btn {
+      font-size: 20px;
+      padding-left: 95px !important;
+      padding-right: 25px !important;
+    }
+  }
+
+  .information-section {
+    margin-bottom: 4.5rem !important;
+
+    & .card {
+      margin: 15px 0px;
+    }
+  }
+
+  .category-section {
+    & .card {
+      margin: 15px 15px;
+    }
+  }
+
+  .still-section {
+    padding-top: 4.5rem !important;
+    padding-bottom: 5.5rem !important;
+
+    & .left {
+      margin-right: 0rem !important;
+    }
+  }
+  .pricing-section{
+    & .features{
+      display: none !important;
+    }
+    & .basic{
+      margin: 20px 0px;
+    }
+    & .pro{
+      margin-bottom: 40px !important;
+    }
+    & .basics{
+      margin: 20px 0px;
+    }
+  }
+  .Trusted-section{
+    & .working p {
+      padding: 0 0 !important;
+      margin: 0 0 !important;
+    }
+
+    & .social-img {
+      padding: 20px 0px;
+    }
+  }
+  .blog-section{
+    & .square {
+      width: auto !important;
+      left: 0 !important;
+      top: 500px !important;
+      & .lead{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+      }
+    }
+  }
+  .mac-section{
+    margin-top: 22rem !important;
+    & .img-1{
+      height: 288px !important;
+      margin: 24px 0;
+    }
+  }
+  .share-section{
+    text-align: center !important;
+    & .contnts{
+      text-align: center !important;
+    }
+  }
+  .sign-up-section{
+    padding-left: 0 !important;
+    padding-top: 1rem !important;
+    
+    & .welcome{
+      padding-right: 2rem !important;
+    }
+  }
+  .sign-in-section{
+    height: 640px !important;
+    & .signing{
+      padding: 1.5rem !important;
+    }
+  }
+  .recover-section{
+    height: 640px !important;
+    & .recover{
+      padding: 1.5rem !important;
+    }
+  }
+  .coming-soon-section{
+    & h1{
+      font-size: 4.125rem !important;
+    }
+  }
+  .error-section{
+    & .square{
+      width: 300px !important;
+      padding: 2rem !important;
+      transform: translate(-150px, 60px) !important;
+    }
+    & h2{
+      padding-top: 0rem !important;
+    }
+    & p{
+      padding-bottom: 1.5rem !important;
+    }
+    & img {
+      height: 100vh !important;
+      object-fit: cover;
+    }
+  }
+  .documentation-section{
+    & .intro{
+      margin-left: 0 !important;
+      padding: 1.5rem !important;
+    }
+  }
+  // .documentation-section{
+  //   & #side_nav{
+  //     margin-left: -250px;
+  //     position: fixed;
+  //     min-height: 100vh;
+  //     z-index: 1;
+  //     &.active{
+  //       margin-left: 0;
+  //     }
+  //   }
+  // }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  #myHeader {
+    & .navbar {
+      & .navbar-nav {
+        font-size: 20px;
+      }
+
+      & .btn {
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  .design-section .content-section {
+    padding-top: 11.25rem !important;
+
+    & p {
+      font-size: 25px;
+    }
+
+    & .btn {
+      font-size: 20px;
+    }
+  }
+
+  .square-conference-section {
+    & .content {
+      padding: 0.5rem !important;
+    }
+
+    & h5 {
+      font-size: 30px !important;
+    }
+
+    & p {
+      font-size: 20px;
+    }
+  }
+
+  .explore-section {
+    .card {
+      height: 245px;
+
+      & h5 {
+        font-size: 24px;
+      }
+
+      & p {
+        font-size: 19px !important;
+      }
+    }
+  }
+
+  .owl-carousel .owl-nav .owl-prev {
+    left: 470px;
+  }
+
+  .speak-section .matty {
+    & .img-1 {
+      width: 29% !important;
+    }
+
+    & .contant {
+      & h6 {
+        font-size: 22px;
+      }
+
+      & a {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .price-section .card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    & .card-body {
+      & p {
+        font-size: 20px;
+      }
+
+      & ul {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+      }
+
+      & .btn {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .global-section {
+    & p {
+      font-size: 21px;
+    }
+
+    & span {
+      font-size: 2.2rem !important;
+    }
+  }
+
+  .agenda-section {
+    & .tab-content .table {
+      & thead {
+        font-size: 20px;
+      }
+
+      & tbody {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .venue-section {
+    & h2 {
+      margin-bottom: 1rem !important;
+    }
+
+    & p {
+      font-size: 20px;
+    }
+
+    & a {
+      font-size: 20px;
+
+      & svg {
+        width: 25px !important;
+        height: 25px !important;
+      }
+    }
+  }
+
+  .top-footer-section {
+    & h6 {
+      font-size: 20px;
+    }
+
+    & ul li a {
+      font-size: 18px !important;
+    }
+  }
+
+  .bottom-footer-section {
+    & .policy {
+      font-size: 18px;
+    }
+
+    & .cookies {
+      font-size: 18px;
+    }
+  }
+
+  .about-section {
+    padding-top: 130px !important;
+    margin-bottom: 100px !important;
+
+    & .abouts .imgs {
+      width: 853px !important;
+    }
+  }
+
+  .integer-section {
+    & .animate p {
+      font-size: 22px !important;
+    }
+  }
+
+  .brand-section {
+    & svg {
+      width: 45px !important;
+      height: 45px !important;
+    }
+
+    & h6 {
+      font-size: 25px;
+    }
+
+    & p {
+      font-size: 22px;
+    }
+  }
+
+  .behind-section {
+    & .sed {
+      padding-top: 3rem;
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+    }
+  }
+
+  .quality-section {
+    & .home {
+      display: none;
+    }
+
+    & .content {
+      & p {
+        font-size: 20px;
+      }
+
+      & h6 {
+        font-size: 1.5rem;
+      }
+
+      & a {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .work-section {
+    & .working {
+      & p {
+        padding: 0 0 !important;
+      }
+
+      & .social-img {
+        padding: 20px 0px;
+      }
+    }
+  }
+
+  .content-section {
+    & .item {
+      & p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .leadership-team-section {
+    & .card .card-body {
+      & h6 {
+        font-size: 22px;
+      }
+
+      & p {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .rating-section {
+    & h2 {
+      font-size: 4.5rem !important;
+    }
+
+    & span {
+      font-size: 22px;
+    }
+  }
+
+  .join-section {
+    & .cntnt {
+      text-align: center !important;
+      justify-content: center;
+      display: flex;
+      padding: 5px 0;
+
+      & h5 {
+        font-size: 25px;
+      }
+
+      & span {
+        font-size: 20px;
+      }
+
+      & .btn {
+        font-size: 20px;
+
+        & svg {
+          width: 22px;
+          height: 22px;
+        }
+      }
+    }
+  }
+
+  .service-section {
+    & .amet {
+      & a {
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .data-section {
+    & .contents {
+      & h6 {
+        font-size: 20px;
+      }
+
+      & ul {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .client-graph-section {
+    & .IMGS {
+      padding-bottom: 20px;
+
+      & .img-2 {
+        width: 486px !important;
+        transform: translate(-246px, 3px) !important;
+      }
+    }
+
+    & p {
+      font-size: 20px;
+      padding-bottom: 60px;
+    }
+  }
+
+  .mobile-section {
+    & .hybrid .nav {
+      font-size: 22px;
+    }
+
+    & .tab-content .tab-pane {
+      & ul {
+        font-size: 19px;
+      }
+
+      & p {
+        font-size: 18px;
+      }
+
+      & .btn-1 {
+        font-size: 20px !important;
+      }
+
+      & .btn-2 {
+        font-size: 20px !important;
+      }
+    }
+
+    & .mob-img {
+      margin-top: 5rem !important;
+    }
+  }
+
+  .plan-section {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+    & p {
+      font-size: 23px;
+    }
+
+    & .card {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+
+      & .card-body {
+        & p {
+          font-size: 17px;
+        }
+
+        & ul {
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
+        }
+      }
+    }
+
+    & .enjoy {
+      & .card-body {
+        & ul {
+          padding-top: 25px;
+        }
+      }
+    }
+  }
+
+  .contact-section {
+    & .map {
+      transform: translate(-50%, -50%) translate(135px, 269px) !important;
+    }
+
+    & .btn {
+      font-size: 20px;
+      padding-left: 25px !important;
+      padding-right: 25px !important;
+    }
+  }
+
+  .pricing-section {
+    & .features {
+      display: none;
+    }
+
+    & .pro .card-body {
+      & ul {
+        padding-top: 25px;
+      }
+    }
+
+    & .btn {
+      font-size: 20px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+
+  .frequently-section {
+    & h6 {
+      font-size: 20px;
+    }
+
+    & p {
+      font-size: 17px !important;
+    }
+  }
+
+  .Trusted-section {
+    & .working {
+      & p {
+        padding: 0 0 !important;
+      }
+
+      & .social-img {
+        padding: 20px 0px;
+      }
+    }
+  }
+
+  .category-section {
+    & p {
+      font-size: 25px;
+    }
+
+    & .card {
+      height: 227px;
+    }
+  }
+
+  .accordion-section {
+    & p {
+      font-size: 18px;
+    }
+
+    & .accordion .accordion-item {
+      & .accordion-button {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .still-section {
+    & p {
+      font-size: 18px;
+    }
+
+    & a {
+      font-size: 19px;
+    }
+  }
+
+  .blog-section {
+    & .square {
+      width: auto !important;
+
+      & p {
+        font-size: 21px !important;
+        padding-top: 1rem !important;
+        margin-top: 0rem !important;
+      }
+    }
+  }
+
+  .artical-section {
+    & .card .card-body {
+      & p {
+        font-size: 17px !important;
+      }
+      & h4 a{
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  .sign-up-section {
+    padding-left: 2.45rem !important;
+
+    & .welcome {
+      padding-top: 6rem !important;
+      padding-left: 0rem !important;
+      padding-right: 1.5rem !important;
+
+      & p {
+        font-size: 20px !important;
+      }
+    }
+
+    & .square {
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+
+      & .item img {
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .sign-in-section {
+    height: 1180px !important;
+  }
+
+  .recover-section {
+    height: 1180px !important;
+  }
+
+  .coming-soon-section {
+    height: 1180px !important;
+  }
+
+  .error-section {
+    & .square {
+      top: 300px !important;
+
+      & p {
+        font-size: 20px !important;
+      }
+
+      & a {
+        font-size: 20px !important;
+      }
+    }
+
+    & img {
+      height: 100vh !important;
+      object-fit: cover;
+    }
+  }
+
+  .documentation-section {
+    & .intro {
+      margin-left: 200px !important;
+      padding: 3rem 1rem !important;
+
+      & h5 {
+        font-size: 26px;
+      }
+
+      & p {
+        font-size: 22px !important;
+      }
+    }
+  }
+}

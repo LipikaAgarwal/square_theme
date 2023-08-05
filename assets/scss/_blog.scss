@@ -1,0 +1,77 @@
+.blog-section {
+    padding-top: 2.25rem !important;
+    padding-bottom: 2.25rem !important;
+
+    & .square {
+        position: absolute;
+        left: 47%;
+        width: 641px;
+        top: 80px;
+
+        & p {
+            font-size: 1.3134375rem;
+        }
+
+        & .lead {
+            font-weight: 900;
+        }
+
+        & span {
+            opacity: .3;
+        }
+    }
+}
+
+.mac-section {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+
+    & .sed {
+        & ul li svg {
+            fill: $btn-bg;
+        }
+    }
+
+    & .macbook {
+        & .cntnt {
+            bottom: -1.3rem;
+            left: 2rem;
+            padding: 0.5rem 1.5rem 0.5rem 0.75rem;
+            position: absolute;
+        }
+    }
+}
+
+.share-section {
+    margin-bottom: 4.75rem !important;
+    margin-top: 4.75rem !important;
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+}
+
+.artical-section {
+    padding-bottom: 9.5rem !important;
+    padding-top: 4.75rem !important;
+
+    & .card {
+        transition: box-shadow .3s ease, transform .3s ease;
+        &:hover h4{
+            text-decoration: underline;
+           
+        }
+
+        &:hover {
+            transform: translate3d(0, -6px, 0) !important;
+        }
+
+        & .card-body {
+            & h4 a svg {
+                fill: $btn-bg;
+            }
+        }
+    }
+}
+.insta-account-section{
+    padding-top: 4.75rem !important;
+    padding-bottom: 4.75rem !important;
+}

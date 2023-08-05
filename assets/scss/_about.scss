@@ -1,0 +1,215 @@
+.about-section {
+    padding-top: 200px;
+    margin-bottom: 200px;
+    height: 630px;
+    & .abouts {
+        & .imgs {
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../image/about-1.jpg);
+            position: absolute;
+            // top: 0px;
+            left: -109px;
+            width: 1221px;
+            height: 542.8px;
+            margin-top: -100px;
+            transform: translate3d(0px, 114.6px, 0px);
+        }
+    }
+}
+
+.integer-section {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+
+    & .animate {
+        & p {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.work {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+}
+
+.behind-section {
+    padding-bottom: 4.75rem;
+    padding-top: 4.75rem;
+
+    & a {
+        color: $btn-bg;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        & svg {
+            fill: $btn-bg !important;
+        }
+    }
+}
+
+.quality-section {
+    padding-top: 225px;
+    padding-bottom: 200px;
+    height: 950px;
+
+    & .imges {
+        position: absolute;
+        left: -20%;
+        margin-top: -150px;
+
+        & img {
+            object-fit: cover;
+        }
+    }
+
+    & .content {
+        margin-top: -150px;
+        padding: 70px 70px;
+
+        & .wrapper {
+            display: inline-flex;
+
+            & .static-txt {}
+
+            & .dynamic-txts {
+                margin-left: 15px;
+                overflow: hidden;
+                font-size: 2rem;
+                line-height: 42.5px;
+                height: 40px;
+                & li{
+                    position: relative;
+                    top: 0;
+                    animation: slide 6s steps(4) infinite;
+
+                        @keyframes slide {
+                            100% {
+                               top: -180px;
+                            }
+                        }
+                }
+
+                & li span {
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgb(248, 249, 250);
+                        border-left: 2px solid #4C4C4C;
+                        animation: typing 1.5s steps(11) infinite;
+
+                        @keyframes typing {
+                            100% {
+                                left: 100%;
+                                margin: 0 -35px 0 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        & .inspiration svg {
+            fill: $btn-bg;
+        }
+
+        & a {
+            background-color: $btn-bg;
+
+            &:hover {
+                background-color: $btn-bg-hover;
+            }
+        }
+    }
+}
+
+.work-section {
+    padding-bottom: 4.75rem !important;
+    padding-top: 4.75rem !important;
+
+    & .working {
+        & p {
+            padding: 0px 97px;
+            margin: 0 90px;
+        }
+
+        & .social-img:nth-child(1) svg {
+            .st40 {
+                fill: #4C4C4C;
+            }
+
+            .st41 {
+                fill: #898989;
+            }
+
+            .st42 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #FFFFFF;
+            }
+
+            .st43 {
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                fill: #EC1C2E;
+            }
+        }
+
+        & .social-img:nth-child(3) svg {
+            .st0 {
+                fill: #E53238;
+            }
+
+            .st1 {
+                fill: #0064D2;
+            }
+
+            .st2 {
+                fill: #F5AF02;
+            }
+
+            .st3 {
+                fill: #86B817;
+            }
+        }
+
+        & .social-img:nth-child(4) svg {
+            .st30 {
+                fill: #003087;
+            }
+
+            .st31 {
+                fill: #009CDE;
+            }
+
+            .st32 {
+                fill: #012169;
+            }
+        }
+
+        & .social-img:nth-child(5) svg {
+            .st10 {
+                fill: #80BA27;
+            }
+
+            .st11 {
+                fill: #BC8647;
+            }
+
+            .st12 {
+                fill: #1E64A8;
+            }
+        }
+
+    }
+}
